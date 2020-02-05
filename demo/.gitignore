@@ -30,3 +30,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### ADD ON ###
+bin/
+.gradle/
+.settings/

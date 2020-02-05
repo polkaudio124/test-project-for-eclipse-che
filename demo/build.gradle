@@ -22,3 +22,8 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+task run(type: JavaExec) {
+    main = 'com.example.demo.DemoApplication'
+    classpath = sourceSets.main.runtimeClasspath
+}
